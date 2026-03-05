@@ -1,17 +1,21 @@
-::: {align="center"}
+<div align="center">
+
+<img src="assets/logo/aurex.png" width="140" />
+
 # Aurex AUX Miner
 
-**High‑performance SHA‑256 Proof‑of‑Work miner for Aurex (AUX)**\
+**High-performance SHA-256 Proof-of-Work miner for Aurex (AUX)**  
 Built for the **Vexanium Blockchain (Antelope Protocol)**
 
-Designed with architecture inspired by professional miners such as
+Designed with architecture inspired by professional miners such as  
 **Bitcoin Core / cgminer**.
 
 ![Node](https://img.shields.io/badge/node-%3E%3D18-green)
 ![PoW](https://img.shields.io/badge/hash-SHA256-orange)
 ![Chain](https://img.shields.io/badge/blockchain-Vexanium-purple)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-:::
+
+</div>
 
 ------------------------------------------------------------------------
 
