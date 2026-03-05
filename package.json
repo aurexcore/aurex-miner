@@ -1,0 +1,40 @@
+{
+  "name": "aurex-miner",
+  "version": "1.0.0",
+  "description": "Multi-thread SHA-256 Proof-of-Work miner for Aurex (AUX) on the Vexanium blockchain built on Antelope.",
+  "main": "miner.js",
+  "type": "commonjs",
+  "bin": {
+    "aurex-miner": "./miner.js"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node miner.js",
+    "mine": "node miner.js",
+    "dev": "node miner.js --threads auto"
+  },
+  "keywords": [
+    "aurex",
+    "aux",
+    "vexanium",
+    "antelope",
+    "blockchain",
+    "pow",
+    "miner",
+    "sha256",
+    "cryptocurrency",
+    "worker_threads"
+  ],
+  "author": "Aurex Developers",
+  "license": "ISC",
+  "dependencies": {
+    "@wharfkit/antelope": "^1.1.1",
+    "dotenv": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.3"
+  }
+}
